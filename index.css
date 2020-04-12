@@ -1,0 +1,102 @@
+#header img {
+
+    width: 80px;
+
+}
+
+
+.navbar-brand img{
+
+    vertical-align: bottom;
+
+}
+
+
+.text-platzi{
+
+    color: #97c93e !important; 
+
+}
+
+
+.btn-platzi{
+
+    background-color: #97c93e; 
+    color:white;
+
+}
+
+.btn-platzi:hover{
+
+    background-color: #779e31; 
+
+}
+
+
+
+
+#main .carousel-inner img {
+
+    max-height: 70vh ; /* 70 view por height es el 70 %del alto de la pantalla disponisble por el navegador*/
+    object-fit: cover; /* Mantiene la proporción original de la imagen, lo que hace es que la estira y le hace zoom*/
+    filter: grayscale(70%); /* Aplica un filtro de degradado de grises a las imágenes, en este caso le quita un 30% del color a las imágenes*/
+
+}
+
+
+#carousel{
+
+    position: relative;
+
+}
+
+
+#carousel .overlay{
+    
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+
+}
+
+
+#carousel .overlay .container,
+#carousel .overlay .container .row{
+    
+    height: 100%;
+
+}
+
+
+#place-time{
+
+    background-color: #343a40;
+    color:white;
+
+}
+
+
+#place-time img{
+
+    max-width: 100%;
+
+}
+
+
+#footer {
+
+    background: linear-gradient(90deg,#1c3643,#273b47 50%,#1e5372);
+
+}
+
+
+#footer a {
+
+    color: white;
+
+}
